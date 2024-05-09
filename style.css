@@ -10,6 +10,7 @@ body {
     margin-bottom: 0.5em;
     border-radius: 1em;
 }
+
 .medium_pizza {
     background-color: #4f772d;
     flex: 1.5;
@@ -25,26 +26,34 @@ body {
     flex: 1;
 }
 
-.contact_us {
-    background-color: #7400b8;
-}
 
-.special {
-    background-color: black;
-    color: white;
-}
-
-@media (min-width: 760px) {
-
-    .large_pizza {
-        background-color: #6A4C93;
-        flex: 4;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: green;
+        border-radius: 10px;
     }
-}
 
-@media (min-width: 960px) {
-
-    .pizzas {
-        display: flex;
+    td {
+        padding: 10px; 
+        border: 0px ;
+        width:20%;
+        border-radius: 10px;
     }
-}
+
+  
+
+    @media (min-width: 760px) {
+
+        .large_pizza {
+            background-color: #6A4C93;
+            flex: 4;
+        }
+    }
+
+    @media (min-width: 960px) {
+
+        .pizzas {
+            display: flex;
+        }
+    }
